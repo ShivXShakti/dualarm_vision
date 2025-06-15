@@ -1,0 +1,5 @@
+https://github.com/luxonis/depthai-ros.git
+
+ros2 launch depthai_ros_driver pointcloud.launch.py
+
+ rosdep install --from-paths src --ignore-src -r -y
